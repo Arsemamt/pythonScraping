@@ -8,7 +8,7 @@ import asyncio
 bot = Bot(token='6975377783:AAFT_FbjxAUNMGr3Lnojhctlktu2grYzkPE')
 dp = Dispatcher()
 # dp.init(bot)ad
-channel_id = '-2031620616'  # Replace with your news channel username or ID
+channel_id = '@Scraping_Arsema' #-2031620616 # Replace with your news channel username or ID
 
 # Function to scrape news from the website
 def scrape_news():
@@ -53,5 +53,5 @@ async def main():
 
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
-    loop.create_task(__main__())
+    loop.create_task(main())
     loop.run_forever()
