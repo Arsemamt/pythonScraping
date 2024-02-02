@@ -41,7 +41,7 @@ async def post_news_to_channel(article):
     await bot.send_message(chat_id=channel_id, text=message, disable_web_page_preview=True)
 
 # Set the time interval (in seconds) between news posts
-time_interval = 20  # 20 seconds
+time_interval = 200  # 200 seconds
 
 async def main():
     while True:
